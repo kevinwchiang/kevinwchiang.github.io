@@ -9,6 +9,6 @@ header-img: "img/dots.png"
 
 <p>My first post ever! The past couple of days, I've been working on creating a game using D3 for the first time. The game that me and my partner were trying to create is much like Collider, if you've ever heard of it. Prior to being exposed to D3, I had only tried using jQuery to manipulate DOM objects. Going through this project really helped me see some of the versatility and power that D3 provides. </p>
 
-<p>Let's jump into the problem! In our project, we had to make SVG images which we set to look like asteroids: </p>
+<p>Let's jump into the problem! In our project, we had to make SVG images which we set to look like asteroids: / not finished /</p>
 
-<p>Naturally, we wanted these asteroids to be able to spin using CSS. After many Google searches, we could only find CSS webkits and solutions that would make our SVG images rotate.</p>
+<p>Naturally, we wanted these asteroids to be able to spin using CSS. After many Google searches, we could only find CSS webkits and solutions that would make our SVG images rotate. To be continued...</p>
