@@ -4,7 +4,7 @@ title:      "A D3 Problem and Solution"
 subtitle:   "Making SVG images spin"
 date:       2015-06-11 05:10:00
 author:     "Kevin Chiang"
-header-img: "img/d3.png"
+header-img: "img/dots.png"
 ---
 
 <p>My first post ever! The past couple of days, I've been working on creating a game using D3 for the first time. The game that me and my partner were trying to create is much like Collider, if you've ever heard of it. Prior to being exposed to D3, I had only tried using jQuery to manipulate DOM objects. Going through this project really helped me see some of the versatility and power that D3 provides. </p>
