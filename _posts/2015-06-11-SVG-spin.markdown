@@ -62,7 +62,7 @@ svg.selectAll("image.enemy")
 }
 </code></pre>
 
-<p>This was rotating all of our images instead of spinning them, as we suspected it would. Our solution was to change the transform origin property, which allows you to change the position of transformed elements.
+<p>This was rotating all of our images instead of spinning them, as we suspected it would. Our solution was to add the transform origin property, which allows you to change the position of transformed elements.
 </p>
 
 <pre><code>
