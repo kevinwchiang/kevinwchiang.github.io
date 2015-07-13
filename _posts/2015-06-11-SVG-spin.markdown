@@ -11,6 +11,10 @@ header-img: "img/dots.png"
 
 <p>Let's jump into the problem! In our project, we had to make SVG images which we set to look like asteroids. First, we created the SVG using D3: </p>
 
-<code class= "highlight">var svg = d3.select('body').append('svg').attr("width", 1000).attr("height", 625).style("border", "1px solid white");</code>
+<code class= "highlight">var svg = d3.select('body')
+.append('svg')
+.attr("width", 1000)
+.attr("height", 625)
+.style("border", "1px solid white");</code>
 
 <p>We wanted these asteroids to be able to spin using CSS. After several Google searches, we could only find CSS webkits and solutions that would make our SVG images rotate. To be continued...</p>
