@@ -72,14 +72,6 @@ svg.selectAll("image.enemy")
 
 <p>This line sets the origin of the image to its own center. </p>
 
-<OBJECT classid='clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B' width="400"
-        height="300" codebase='http://www.apple.com/qtactivex/qtplugin.cab'>
-        <param name='src' value="dinocollide.mov">
-        <param name='autoplay' value="false">
-        <param name='controller' value="true">
-        <param name='loop' value="true">
-        <EMBED src="your_mov_file.mov" width="400" height="300" autoplay="false" 
-        controller="true" loop="false" pluginspage='http://www.apple.com/quicktime/download/'>
-        </EMBED>
-        </OBJECT>
+<embed src="dinocollide.mov" Pluginspage="http://www.apple.com/quicktime/" width="320" height="250" CONTROLLER="true" LOOP="false" AUTOPLAY="false" name="Dinocollide"></embed>
+
 <p>Thanks for reading!</p>
