@@ -69,4 +69,5 @@ svg.selectAll("image.enemy")
 -webkit-transform-origin: 50% 50%;
 </code></pre>
 
+<p>This line sets the origin of the image to its own center. </p>
 <p>Thanks for reading!</p>
