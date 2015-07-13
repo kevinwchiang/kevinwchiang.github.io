@@ -7,7 +7,8 @@ author:     "Kevin Chiang"
 header-img: "img/dots.png"
 ---
 
-<p>My first post ever! The past couple of days, I've been working on creating a game using D3 for the first time. The game that my partner and I were trying to create is much like Collider, if you've ever heard of it. Prior to being exposed to D3, I had only tried using jQuery to manipulate DOM objects. Going through this project really helped me see some of the versatility and power that D3 provides. </p>
+<p>My first post ever! The past couple of days, I've been working on creating a game using D3 for the first time. The game that my partner and I were trying to create is much like Collider, if you've ever heard of it. Prior to being exposed to D3, I had only tried using jQuery to manipulate DOM objects. Going through this project really helped me see some of the versatility and power that D3 provides. 
+</p>
 
 <p>Let's jump into the problem! In our project, we had to make SVG images which we set to look like asteroids. First, we created the SVG using D3: </p>
 
@@ -70,4 +71,6 @@ svg.selectAll("image.enemy")
 </code></pre>
 
 <p>This line sets the origin of the image to its own center. </p>
+
+<video controls="controls" width="800" height="600" name="Dinocollide" src="dinocollide.mov"></video>
 <p>Thanks for reading!</p>
