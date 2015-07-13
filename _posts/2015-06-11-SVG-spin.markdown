@@ -11,20 +11,62 @@ header-img: "img/dots.png"
 
 <p>Let's jump into the problem! In our project, we had to make SVG images which we set to look like asteroids. First, we created the SVG using D3: </p>
 
-<pre><code class= "highlight">var svg = d3.select('body').append('svg')</a>.attr("width", 1000).attr("height", 625).style("border", "1px solid white");</code></pre>
+<pre><code>
+var svg = d3.select('body').append('svg')</a>.attr("width", 1000).attr("height", 625).style("border", "1px solid white");
+</code></pre>
 
-<p>We wanted these asteroids to be able to spin using CSS. After several Google searches, we could only find CSS webkits and solutions that would make our SVG images rotate. To be continued...</p>
+<p>Next, we needed a way to generate 10 SVG images that started in random positions on our SVG element. We used a function to do this:</p>
 
 <pre><code>
-  var checkCollision = function(enemy, collidedCallback){
-    var radiusSum =  parseFloat(enemy.attr('width'))/2 + parseFloat(player.attr('width'))/2;
-    var xDiff = parseFloat(enemy.attr('x')) - parseFloat(player.attr('x'));
-    var yDiff = parseFloat(enemy.attr('y')) - parseFloat(player.attr('y'));
+var numEnemies = 10;
 
-    var separation = Math.sqrt( Math.pow(xDiff,2) + Math.pow(yDiff,2) )
-    if (separation < radiusSum) {
-      collidedCallback(player, enemy); // updating the score
-    }
+var createEnemies = function(){
+  return d3.range(0, numEnemies).map(function(i){ 
+    return {id: i, x: Math.random() * 950, y: Math.random() * 650};
+  });
 }
 
+var enemies = createEnemies();
 </code></pre>
+
+<p>Finally, we used the function we created to append to the SVG element along with the attributes we wanted for our SVG images
+</p>
+
+<pre><code>
+svg.selectAll("image.enemy")
+.data(enemies, function(d){ return d.id; )
+.enter().append("image")
+.attr("xlink:href", "asteroid.png").attr("height", "50")
+.attr("width","50").attr("class", "enemy")
+.attr("x", function(d){ return d.x; }).attr("y", function(d){ return d.y; });
+</code></pre>
+
+<p>Next, we wanted the asteroids to be able to spin in place using CSS. After several Google searches, we could only find tutorials on using CSS webkits that would make our SVG images rotate. We decided to give it a try anyways using the rotate webkit keyframes and accessing all of our SVG images using the "enemy" class property that we set it to earlier.</p>
+
+<pre><code>
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+ .enemy{
+  -webkit-transform: rotate(360deg);
+  -webkit-animation-name:rotate;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+</code></pre>
+
+<p>This was rotating all of our images, as we suspected it would. Our solution was to change the transform origin property, which allows you to change the position of transformed elements.
+</p>
+
+<pre><code>
+-webkit-transform-origin: 50% 50%;
+</code></pre>
+
+<p>Thanks for reading!</p>
