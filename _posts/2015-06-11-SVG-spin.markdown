@@ -72,6 +72,6 @@ svg.selectAll("image.enemy")
 
 <p>This line sets the origin of the image to its own center. </p>
 
-<video controls="controls" width="800" height="600" name="Video Name" src="dinocollide.mov"></video>
+<video controls="controls" width="800" height="600" name="Video Name" src="/img/dinocollide.mov"></video>
 
 <p>Thanks for reading!</p>
