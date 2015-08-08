@@ -26,6 +26,12 @@ of software hackers can create.
 There's an extremely large and growing amount of hackathons being hosted by
 all kinds of organizations. Here are a few of them:<br/>
 <a>MHacks</a>
-<blockquote>LA Hacks</blockquote>
+Hosted by University of Michigan.
+<a>LAHacks</a>
+Hosted by University of California, Los Angeles.
+These hackathons bring in over 1000 people and put them in a big stadium,
+making it easier to walk around and make connections. People are able to
+feed off of each other's energy. However, a problem with these hackathons is that
+they often experience trouble with food/power/wifi due to the large scale.
 </p>
 </body>
