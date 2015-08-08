@@ -40,7 +40,7 @@ Hosted by University of Pennsylvania.<br/>
 Hosted by MIT.<br/>
 <a>Hack NY: </a>
 Hosted by Columbia and NYU.<br/>
-<a>YC Hacks: </a><br/>
+<a>YC Hacks: </a>
 Hosted by Y Combinator (Early Stage startup incubator based in Mountain View).<br/>
 These 4 hackathons are known for drawing the best of the best. Participants likely
 have attended several hackathons before. Getting into any of these hackathons is considered
