@@ -34,18 +34,19 @@ making it easier to walk around and make connections. People are able to
 feed off of each other's energy. However, a problem with these hackathons is that
 they often experience trouble with food/power/wifi due to the large scale.<br/>
 
-<a>PennApps</a><br/>
+<a>PennApps: </a>
 Hosted by University of Pennsylvania.<br/>
-<a>Hack MIT</a><br/>
+<a>Hack MIT: </a>
 Hosted by MIT.<br/>
-<a>Hack NY</a><br/>
+<a>Hack NY: </a>
 Hosted by Columbia and NYU.<br/>
-<a>YC Hacks</a><br/>
+<a>YC Hacks: </a><br/>
 Hosted by Y Combinator (Early Stage startup incubator based in Mountain View).<br/>
 These 4 hackathons are known for drawing the best of the best. Participants likely
 have attended several hackathons before. Getting into any of these hackathons is considered
 a big deal in the world of tech and is something that attendees will highlight on their resumes.<br/>
 
-I hope that this presentation has encouraged you to attend a hackathon. It’s a really good way to  learn new things, make friends, and possibly build something really cool! Thank you
+<footer>I hope that this presentation has encouraged you to attend a hackathon. It’s a really good way to  learn new things, make friends, and possibly build something really cool! Thank you
+</footer>
 </p>
 </body>
