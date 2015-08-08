@@ -24,15 +24,15 @@ of software hackers can create.
 <h1>What are some cool hackathons?</h1>
 <p>
 There's an extremely large and growing amount of hackathons being hosted by
-all kinds of organizations. Here are a few of them:<br/>
-<a>MHacks</a><br/>
+all kinds of organizations. Here are a few of them:<br/><br/>
+<a>MHacks: </a>
 Hosted by University of Michigan.<br/>
-<a>LAHacks</a><br/>
+<a>LAHacks: </a>
 Hosted by University of California, Los Angeles.<br/>
 These hackathons bring in over 1000 people and put them in a big stadium,
 making it easier to walk around and make connections. People are able to
 feed off of each other's energy. However, a problem with these hackathons is that
-they often experience trouble with food/power/wifi due to the large scale.<br/>
+they often experience trouble with food/power/wifi due to the large scale.<br/><br/>
 
 <a>PennApps: </a>
 Hosted by University of Pennsylvania.<br/>
