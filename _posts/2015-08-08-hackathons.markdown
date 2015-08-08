@@ -46,7 +46,7 @@ These 4 hackathons are known for drawing the best of the best. Participants like
 have attended several hackathons before. Getting into any of these hackathons is considered
 a big deal in the world of tech and is something that attendees will highlight on their resumes.<br/>
 
-<footer>I hope that this presentation has encouraged you to attend a hackathon. It’s a really good way to  learn new things, make friends, and possibly build something really cool! Thank you
+<footer>I hope that this presentation has encouraged you to attend a hackathon. It’s a really good way to  learn new things, make friends, and possibly build something really cool! Thank you for reading.
 </footer>
 </p>
 </body>
