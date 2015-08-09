@@ -25,7 +25,7 @@ of software hackers can create.
 <p>
 There's an extremely large and growing amount of hackathons being hosted by
 all kinds of organizations. Here are a few of them:<br/><br/>
-<a href='www.google.com'>MHacks: </a>
+<a href='http://www.google.com'>MHacks: </a>
 Hosted by University of Michigan.<br/>
 <a>LAHacks: </a>
 Hosted by University of California, Los Angeles.<br/>
