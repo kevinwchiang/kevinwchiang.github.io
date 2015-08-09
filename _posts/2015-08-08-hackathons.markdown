@@ -25,22 +25,22 @@ of software hackers can create.
 <p>
 There's an extremely large and growing amount of hackathons being hosted by
 all kinds of organizations. Here are a few of them:<br/><br/>
-<a href='http://www.google.com'>MHacks: </a>
+<a href='http://mhacks.org/'>MHacks: </a>
 Hosted by University of Michigan.<br/>
-<a>LAHacks: </a>
+<a href='http://lahacks.com/'>LAHacks: </a>
 Hosted by University of California, Los Angeles.<br/>
 These hackathons bring in over 1000 people and put them in a big stadium,
 making it easier to walk around and make connections. People are able to
 feed off of each other's energy. However, a problem with these hackathons is that
 they often experience trouble with food/power/wifi due to the large scale.<br/><br/>
 
-<a>PennApps: </a>
+<a href='http://2015f.pennapps.com/'>PennApps: </a>
 Hosted by University of Pennsylvania.<br/>
-<a>Hack MIT: </a>
+<a href='https://hackmit.org/'>Hack MIT: </a>
 Hosted by MIT.<br/>
-<a>Hack NY: </a>
+<a href='http://hackny.org/a/'>Hack NY: </a>
 Hosted by Columbia and NYU.<br/>
-<a>YC Hacks: </a>
+<a href='http://blog.ycombinator.com/yc-hacks-august-2-3-2014'>YC Hacks: </a>
 Hosted by Y Combinator (Early Stage startup incubator based in Mountain View).<br/>
 These 4 hackathons are known for drawing the best of the best. Participants likely
 have attended several hackathons before. Getting into any of these hackathons is considered
