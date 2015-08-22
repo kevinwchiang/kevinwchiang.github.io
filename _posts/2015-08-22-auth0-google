@@ -7,3 +7,25 @@ author:     "Kevin Chiang"
 header-img: "img/auth0-logo.png"
 ---
 
+<p>test 
+</p>
+
+<p>Let's jump into the problem! In our project, we had to make SVG images which we set to look like asteroids. First, we created the SVG using D3: </p>
+
+<pre><code>
+var svg = d3.select('body').append('svg')</a>.attr("width", 1000).attr("height", 625).style("border", "1px solid white");
+</code></pre>
+
+<p>Next, we needed a way to generate 10 SVG images that started in random positions on our SVG element. We used a function to do this:</p>
+
+<pre><code>
+var numEnemies = 10;
+
+var createEnemies = function(){
+  return d3.range(0, numEnemies).map(function(i){ 
+    return {id: i, x: Math.random() * 950, y: Math.random() * 650};
+  });
+}
+
+var enemies = createEnemies();
+</code></pre>
