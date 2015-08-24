@@ -6,9 +6,9 @@ date:       2015-08-24 12:00:00
 author:     "Kevin Chiang"
 header-img: "img/auth0-logo.png"
 ---
-<p>I was recently attempting to add Auth0 to a <a href='homerow-zeus.herokuapp.com'>game</a> that I was working on,
+<p>I was recently attempting to add Auth0 to a <a href='http://homerow-zeus.herokuapp.com'>game</a> that I was working on,
 and ran into some outdated documentation. This blog post is intended to be a guide
-on how to set up Google+ on Auth0 when encountering the following issue:</p>
+on how to set up Google+ on Auth0 when encountering the following issue on log in:</p>
 <img src='/img/auth0-error.png'>
 
 <p>
