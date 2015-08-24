@@ -14,5 +14,8 @@ on how to set up Google+ on Auth0 when encountering the following issue on log i
 <p>1. Go to the <a href='https://console.developers.google.com'>Google Developers Console</a> and create a project with your project name</p>
 <img src='/img/googleplusapi.png'>
 
-<p>2. Click on APIs on the left side bar and navigate to Social APIs - Google+ API</p>
+<p>2. Click on APIs on the left side bar and navigate to Social APIs - Google+ API, and enable the API</p>
 <img src='/img/addingapi.png'>
+
+<p>3. Click on Credentials on the left side bar and navigate to the OAuth consent screen tab to enter and save your product info</p>
+<img src='/img/consentscreen.png'>
