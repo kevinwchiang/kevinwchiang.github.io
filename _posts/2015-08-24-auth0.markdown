@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Auth0 to Google+"
+title:      "Auth0 for Google+"
 subtitle:   "Creating a Google+ social connection on Auth0"
 date:       2015-08-24 12:00:00
 author:     "Kevin Chiang"
@@ -11,4 +11,5 @@ and ran into some outdated documentation. This blog post is intended to be a gui
 on how to set up Google+ on Auth0 when encountering the following issue on log in:</p>
 <img src='/img/auth0-error.png'>
 
-<p>
+<p>1. Go to the <a href='https://console.developers.google.com'>Google+ API</a> and create a project</p>
+<img src='/img/googleplusapi.png'>
