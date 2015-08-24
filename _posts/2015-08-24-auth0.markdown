@@ -7,4 +7,4 @@ author:     "Kevin Chiang"
 header-img: "img/auth0-logo.png"
 ---
 <p>This is our error: </p>
-<img src='/img/auth0-error.png' height='42' width='42'>
+<img src='/img/auth0-error.png'>
