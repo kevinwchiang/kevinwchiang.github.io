@@ -19,3 +19,10 @@ on how to set up Google+ on Auth0 when encountering the following issue on log i
 
 <p>3. Click on Credentials on the left side bar and navigate to the OAuth consent screen tab to enter and save your product info</p>
 <img src='/img/consentscreen.png'>
+
+<p>4. Navigate back to the Credentials tab, click Add credential, and click on OAuth 2.0 client ID in the dropdown</p>
+<img src='/img/consentscreen.png'>
+
+<p>5. After selecting the type of application for your project, you will have successfully created your client ID. Click into
+the created client ID link to view your ID and secret</p>
+<img src='/img/clientidandsecret.png'>
