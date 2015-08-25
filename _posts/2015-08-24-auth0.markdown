@@ -37,4 +37,9 @@ the Authorized redirect URIs field</p>
 appropriate space</p>
 <img src='/img/googleproperties.png'>
 
-<p>Your Auth0 should be up and running with Google+! 
+<p>8. You may want to go to your Apps/APIs tab under the Auth0 dashboard to ensure that you
+are allowing the right callback URLs. Remember to include your local host, auth0 callback URL, 
+and deployed URL</p>
+<img src='/img/allowedcallbacks.png'>
+
+<p>You should be able to sign up and log in through Auth0 using any Google+ account now!</p>
