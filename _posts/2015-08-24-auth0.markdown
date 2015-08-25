@@ -26,3 +26,11 @@ on how to set up Google+ on Auth0 when encountering the following issue on log i
 <p>5. After selecting the type of application for your project, you will have successfully created your client ID. Click into
 the created client ID link to view your ID and secret</p>
 <img src='/img/clientidandsecret.png'>
+
+<p>6. The hard part is over! Copy down the client ID and secret and navigate to your
+<a href='http://manage.auth0.com/#/connections/social'>Auth0 social connections</a> to toggle Google on</p>
+<img src='/img/toggleon.png'>
+
+<p>7. After it's toggled on, click on it to access its properties and enter the Client ID and Client Secret in the
+appropriate space</p>
+<img src='/img/googleproperties.png'>
