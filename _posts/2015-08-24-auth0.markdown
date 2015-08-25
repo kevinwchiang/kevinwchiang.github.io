@@ -24,7 +24,9 @@ on how to set up Google+ on Auth0 when encountering the following issue on log i
 <img src='/img/consentscreen.png'>
 
 <p>5. After selecting the type of application for your project, you will have successfully created your client ID. Click into
-the created client ID link to view your ID and secret</p>
+the created client ID link to view your ID and secret. Add your auth0 domain 
+to the Authorized JavaScript origins field and your auth0 callback URL to
+the Authorized redirect URIs field</p>
 <img src='/img/clientidandsecret.png'>
 
 <p>6. The hard part is over! Copy down the client ID and secret and navigate to your
@@ -34,3 +36,5 @@ the created client ID link to view your ID and secret</p>
 <p>7. After it's toggled on, click on it to access its properties and enter the Client ID and Client Secret in the
 appropriate space</p>
 <img src='/img/googleproperties.png'>
+
+<p>Your Auth0 should be up and running with Google+! 
