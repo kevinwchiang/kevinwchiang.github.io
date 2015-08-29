@@ -1,0 +1,16 @@
+---
+layout:     post
+title:      "Responsive Web Design"
+subtitle:   "RWD using Media Queries"
+date:       2015-08-29 01:43:00
+author:     "Kevin Chiang"
+header-img: ""
+---
+
+<h1>What is Responsive Web Design? (RWD)</h1>
+<p>Responsive web design is a way to deliver web pages in variable sizes
+so that they can be viewed on a computer, tablet, and mobile device all at the same time.</p>
+<p>There are various ways to create a responsive web page, and I recently learned how to 
+do it using media queries.</p>
+
+<h1>What is a Media Query?</h1>
