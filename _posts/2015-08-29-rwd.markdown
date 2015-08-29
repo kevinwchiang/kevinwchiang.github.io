@@ -64,4 +64,4 @@ had to add a media query:</p>
 minimized to under 800 pixels, then we will set the width of the left
 container to 100% of its parent, and the right container to 0%. This
 would effectively hide the right container and let the left
-container take its place
+container take its place.</p>
