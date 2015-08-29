@@ -14,3 +14,54 @@ so that they can be viewed on a computer, tablet, and mobile device all at the s
 do it using media queries.</p>
 
 <h1>What is a Media Query?</h1>
+<p>A media query is a CSS technique that uses <pre><code>@media</pre></code> to
+include certain CSS properties only if the condition its given is true.</p>
+
+<h1>Media Query example</h1>
+<p>In a recent project, I was trying to make a fixed image on the right side
+of my page disappear when I made the page smaller. I wanted to do this
+because the image was a nonessential feature to the functionality of the application.</p>
+
+<p>In this example, the <pre><code>#right-container</pre></code> contained my
+nonessential image feature, and the <pre><code>#left-container</pre></code>
+contained the information that I wanted to take up the entire page if the
+page was minimized. Here is the initial styling for those elements:</p>
+
+<pre><code>
+#left-container{
+  height:100%;
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+
+#right-container{
+  height:100%;
+  display: inline-block;
+  width: 50%;
+  float: right;
+  position: fixed;
+}
+</pre></code>
+
+<p>If you can imagine, these containers show up on the page side by side
+and are of equal height and width. When the page is minimized to a 
+certain size, I wanted it to only show the left container. Therefore, I
+had to add a media query:</p>
+
+<pre><code>
+@media only screen and (max-width: 800px) {
+  #left-container{
+    width: 100%;
+  }
+  #right-container{
+    width: 0%;
+  }
+}
+</pre></code>
+
+<p>This media query states that if the width of the screen is
+minimized to under 800 pixels, then we will set the width of the left
+container to 100% of its parent, and the right container to 0%. This
+would effectively hide the right container and let the left
+container take its place
