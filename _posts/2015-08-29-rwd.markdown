@@ -4,7 +4,7 @@ title:      "Responsive Web Design"
 subtitle:   "RWD using Media Queries"
 date:       2015-08-29 01:43:00
 author:     "Kevin Chiang"
-header-img: ""
+header-img: "img/rwd.jpg"
 ---
 
 <h1>What is Responsive Web Design? (RWD)</h1>
