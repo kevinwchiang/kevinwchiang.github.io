@@ -14,7 +14,7 @@ so that they can be viewed on a computer, tablet, and mobile device all at the s
 do it using media queries.</p>
 
 <h1>What is a Media Query?</h1>
-<p>A media query is a CSS technique that uses <pre><code>@media</code></pre> to
+<p>A media query is a CSS technique that uses <code>@media</code> to
 include certain CSS properties only if the condition its given is true.</p>
 
 <h1>Media Query example</h1>
@@ -23,7 +23,7 @@ of my page disappear when I made the page smaller. I wanted to do this
 because the image was a nonessential feature to the functionality of the application.</p>
 
 <p>In this example, the <code>#right-container</code> contained my
-nonessential image feature, and the <pre><code>#left-container</code></pre>
+nonessential image feature, and the <code>#left-container</code>
 contained the information that I wanted to take up the entire page if the
 page was minimized. Here is the initial styling for those elements:</p>
 
