@@ -14,7 +14,7 @@ so that they can be viewed on a computer, tablet, and mobile device all at the s
 do it using media queries.</p>
 
 <h1>What is a Media Query?</h1>
-<p>A media query is a CSS technique that uses <pre><code>@media</pre></code> to
+<p>A media query is a CSS technique that uses <pre><code>@media</code></pre> to
 include certain CSS properties only if the condition its given is true.</p>
 
 <h1>Media Query example</h1>
@@ -22,8 +22,8 @@ include certain CSS properties only if the condition its given is true.</p>
 of my page disappear when I made the page smaller. I wanted to do this
 because the image was a nonessential feature to the functionality of the application.</p>
 
-<p>In this example, the <pre><code>#right-container</pre></code> contained my
-nonessential image feature, and the <pre><code>#left-container</pre></code>
+<p>In this example, the <pre><code>#right-container</code></pre> contained my
+nonessential image feature, and the <pre><code>#left-container</code></pre>
 contained the information that I wanted to take up the entire page if the
 page was minimized. Here is the initial styling for those elements:</p>
 
@@ -42,7 +42,7 @@ page was minimized. Here is the initial styling for those elements:</p>
   float: right;
   position: fixed;
 }
-</pre></code>
+</code></pre>
 
 <p>If you can imagine, these containers show up on the page side by side
 and are of equal height and width. When the page is minimized to a 
@@ -58,7 +58,7 @@ had to add a media query:</p>
     width: 0%;
   }
 }
-</pre></code>
+</code></pre>
 
 <p>This media query states that if the width of the screen is
 minimized to under 800 pixels, then we will set the width of the left
