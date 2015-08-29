@@ -22,7 +22,7 @@ include certain CSS properties only if the condition its given is true.</p>
 of my page disappear when I made the page smaller. I wanted to do this
 because the image was a nonessential feature to the functionality of the application.</p>
 
-<p>In this example, the <pre>#right-container</pre> contained my
+<p>In this example, the <code>#right-container</code> contained my
 nonessential image feature, and the <pre><code>#left-container</code></pre>
 contained the information that I wanted to take up the entire page if the
 page was minimized. Here is the initial styling for those elements:</p>
