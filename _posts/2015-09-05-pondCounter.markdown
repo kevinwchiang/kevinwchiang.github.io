@@ -43,7 +43,7 @@ so that when we encounter the same spot in the iteration, we don't count it agai
 <h1>The Code</h1>
 <pre>
 var pondCounter = function(matrix){
-  var counter = 0; // 1
+  var counter = 0;
   var recursive = function(i, x){
     matrix[i][x] = 1;
     // Right
