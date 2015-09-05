@@ -29,3 +29,18 @@ In this case, the output would be 1.
 </p>
 
 <h1>Solution Breakdown</h1>
+<p>Let's break this down using some higher level pseudocode:</p>
+<code>1. </code><br/>
+<code>2. </code><br/>
+
+
+
+
+
+
+
+
+
+
+
+
