@@ -9,7 +9,7 @@ header-img: "img/pondCounter.jpg"
 
 <h1>The Problem</h1>
 <p>Given a matrix, create a program that can compute how many
-ponds there are in an N X M matrix. Ponds can be a single or contiguous block of water</p>
+ponds there are in an N X M matrix. Ponds can be a single or contiguous block of water.</p>
 <p>There are no time/memory constraints, and we want to return 0 if there are no
 ponds on the grid. Assume that all inputs will be valid.</p>
 
