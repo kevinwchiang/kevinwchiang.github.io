@@ -33,10 +33,16 @@ In this case, the output would be 1.
 <code>// Iterate through each array of the matrix</code><br/>
 <code>// Iterate through each element of the array</code><br/>
 <code>// If a 0 (water) is found, increment a <b>counter</b></code><br/>
+<code>  // Call a recursive function on the current spot</code><br/>
+<code>    // Recursive function should flip the current spot to a 1, and then check all adjacent spots for 0s</code><br/>
+<code>    // Call recursive function on adjacent 0s that are found</code><br/>
+<code>// Return the counter</code>
+<p>This approach to the solution makes it so that as we find contiguous blocks of water, we only count the block once
+so that when we encounter the same spot in the iteration, we don't count it again.</p>
 
-
-
-
+<h1>The Code</h1>
+<pre>
+</pre>
 
 
 
