@@ -30,9 +30,9 @@ In this case, the output would be 1.
 
 <h1>Solution Breakdown</h1>
 <p>Let's break this down using some higher level pseudocode:</p>
-<code>1. </code><br/>
-<code>2. </code><br/>
-
+<code>// Iterate through each array of the matrix</code><br/>
+<code>// Iterate through each element of the array</code><br/>
+<code>// If a 0 (water) is found, increment a <b>counter</b></code><br/>
 
 
 
