@@ -29,7 +29,7 @@ In this case, the output would be 1.
 </p>
 
 <h1>Solution Breakdown</h1>
-<p>Let's break this down using some higher level pseudocode:</p>
+<p>Let's break this down using some pseudocode:</p>
 <code>// Iterate through each array of the matrix</code><br/>
 <code>// Iterate through each element of the array</code><br/>
 <code>// If a 0 (water) is found, increment a <b>counter</b></code><br/>
@@ -42,6 +42,42 @@ so that when we encounter the same spot in the iteration, we don't count it agai
 
 <h1>The Code</h1>
 <pre>
+var pondCounter = function(matrix){
+  var counter = 0; // 1
+  var recursive = function(i, x){
+    matrix[i][x] = 1;
+    // Right
+    if (matrix[i][x + 1] === 0){
+      recursive(i, x + 1);
+    }
+    // Left
+    if (matrix[i][x - 1] === 0){
+      recursive(i, x - 1);
+    }
+    // Check if Top exists first, then check value
+    if (matrix[i-1] && matrix[i - 1][x] === 0){
+      recursive(i - 1, x);
+    }
+    // Check if Bottom exists first, then check value
+    if (matrix[i+1] && matrix[i + 1][x] === 0){
+      recursive(i + 1, x);
+    }
+  }
+  for (var i = 0; i < matrix.length; i++){
+    for (var x = 0; x < matrix[i].length; x++){
+      if (matrix[i][x] === 0){
+        counter++;
+        recursive(i, x);
+      }
+    }
+  }
+  // If there are no 0s (water), return 0
+  if (counter === 0){
+    return 0; 
+  } else {
+    return counter;
+  }
+}
 </pre>
 
 
