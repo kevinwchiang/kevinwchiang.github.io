@@ -80,6 +80,13 @@ var pondCounter = function(matrix){
 }
 </pre>
 
+<p>Something to watch out for is checking the top and bottom adjacent spots in the recursive function.
+If <code>matrix[i-1]</code> or <code>matrix[i+1]</code> are undefined,
+attempting to access a property on them will return undefined. This will cause the
+program to throw an error. A solution to that is to check if they exist before trying to
+access a property on them.
+</p>
+
 
 
 
